@@ -20,7 +20,12 @@ steps:
     echo See https://aka.ms/yaml
 
   displayName: 'Run a multi-line script'
+
+- script: 
+    npm install path/to/package.com
+  displayName: 'Install package'
   
+   
 - script: 
     npm install
   displayName: 'Npm install'
